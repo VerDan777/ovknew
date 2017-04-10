@@ -1,0 +1,18 @@
+.item {
+  display: inline;
+  text-align: center; }
+  .item__title {
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 3rem; }
+    .item__title span {
+      color: #ecb124;
+      font-size: 3.5rem; }
+    .item__title--titlesub {
+      color: #fff;
+      font-family: 'Exo2Bold',sans-serif; }
+  .item p {
+    font-family: 'OpenSansRegular',sans-serif;
+    color: #74818e; }

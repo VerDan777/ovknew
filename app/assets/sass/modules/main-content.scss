@@ -1,0 +1,31 @@
+.main-content {
+
+        padding: 80px 0px;
+        background-color: $blue;
+    &--advantages {
+        padding: 80px 0px;
+        //visual 
+        background-color: $blue;
+        color:#fff;
+       
+    }
+    &--gallery {
+
+        background-color: #f8f8f8;
+       
+        img {
+           border:5px solid #ecb124;
+           min-height: 360px;
+       }
+       &__img {
+        &__triangle {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            @include triangle(12px,gray,up-right);
+        }
+       }
+    }
+    
+
+}
