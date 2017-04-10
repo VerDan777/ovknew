@@ -1,0 +1,107 @@
+.main-head {
+
+     background-image: url('../../assets/img/bg_top.jpg');
+      background-size: cover;
+      background-position: top center;
+      min-height: 100vh;
+      height: 900px;
+      background-repeat: no-repeat;
+      
+      &__menu__line {
+         padding-top: 48px;
+         @include clearfix 
+      }
+      
+      &__phone__wrap{
+          color:#414e5b;
+          font-family: 'Exo2Bold',sans-serif;
+          font-size:2rem;
+          padding-left: 10px;
+          display: inline-block;
+          line-height: 1.3;
+          @include atMedium {
+              padding-left: 0px;
+              position: relative;
+              top:0px;
+            
+          }
+          
+          a:hover {
+            text-decoration: none;
+            border-color: transparent;
+          }
+      }
+      &__phone {
+          
+              color:#414e5b;
+              font-weight:bold;
+              font-size: 2.1rem;
+      } 
+     &__callback {
+
+          color:#414e5b;
+          font-size: 1.4rem;
+          border-bottom: 1px dashed #7e91a4;
+        // @include time(10s);
+            transition: all 0.5s ease-out;
+    }
+    &__toggle-menu {
+        @include atDesktop {
+            visibility: hidden;
+        }
+  position: absolute;
+  top:0;
+  right: 15px;
+  width: 40px;
+  height: 36px;
+  margin-top: 20px;
+  input {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+    &:checked {
+      + span {
+        background: transparent;
+        &:after {
+          transform: rotate(45deg) translate(-1px, -12px);
+        }
+        &:before {
+          transform: rotate(-45deg) translate(-4px, 16px);
+        }
+      }
+    }
+  }
+  span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: $blue;
+    margin-top: 10px;
+    transition: all 0.1s;
+    &:before, &:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background: $blue;
+      top: -12px;
+      transition: all 0.3s;
+    }
+    &:after {
+      top: 12px;
+    }
+  }
+}
+   
+   
+      
+}
+
+
+
+

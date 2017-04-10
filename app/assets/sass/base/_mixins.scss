@@ -1,0 +1,51 @@
+
+@mixin atSmall {
+    @media (max-width: 699px) {
+        @content;
+    }
+}
+
+@mixin atTabletsPortrait {
+    @media (min-width: 700px) {
+        @content;
+    }
+}
+
+@mixin atTabletsLandscape {
+    @media (min-width: 900px) {
+        @content;
+    }
+}
+
+@mixin atDesktop {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+@mixin atMedium {
+    @media (max-width:1200px) {
+        @content;
+    }
+}
+@mixin atIpad {
+    @media (mix-width:992) and (max-width:1200) {
+        @content;
+    }
+}
+//time 
+@mixin time ($tm) {
+    transition: all $tm ease;
+}
+
+// Clearfix
+
+@mixin clearfix {
+    &::after {
+        content: "";
+
+        // box model
+        clear: both;
+        display: table;
+        width: 100%;
+    }
+}

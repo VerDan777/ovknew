@@ -1,0 +1,27 @@
+{
+  "name": "ovknew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "gulp": "^3.9.1",
+    "sass-module-importer": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerDan777/ovk.git"
+  },
+  "author": "Daniil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VerDan777/ovk/issues"
+  },
+  "homepage": "https://github.com/VerDan777/ovk#readme"
+}

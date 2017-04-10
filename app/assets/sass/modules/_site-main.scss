@@ -1,0 +1,13 @@
+.site-main {
+    &__text{
+        //visual 
+        background-color:blue; 
+        
+        //box model
+        margin: 10px;
+        padding: 10px; 
+        display: inline;
+        text-align: justify;
+        
+    }
+}

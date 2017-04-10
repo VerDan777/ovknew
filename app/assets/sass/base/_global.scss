@@ -1,0 +1,57 @@
+html {
+    // box model
+    box-sizing:  border-box;
+    
+    // visual
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    //positioning
+    position: relative;
+    line-height: 1.6;
+
+    // typography
+    font-size:16px;
+    //box model 
+    min-width: 320px;
+
+    font-family:'OpenSansRegular',sans-serif;
+    // visual
+    background-color:#fff;
+    color:#222;
+    outline: none;
+ 
+    
+}
+h1,h2,h3,h4,h5,h6 {
+
+    font-family: 'OpenSansLight',sans-serif;
+    font-weight: normal;
+}
+h1 {
+    font-size: em(43px);
+}
+h2 {
+    font-size: em(34px);
+}
+h3,h4 {
+
+    font-family: 'OpenSansSemiBold',sans-serif;
+}
+h4 {
+    font-size: em(15px);
+}
+
+.hidden {
+    display: none;
+}
+nav ul {
+    list-style-type: none;
+}

@@ -1,0 +1,31 @@
+.button {
+    //box model 
+    // border-radius: 50px;
+    // margin-top: 50px;
+    padding:11px 45px;
+    text-align: center;
+    background-color: $btn;
+    display: inline-block;
+    font-size: 0.875;
+    height: 48px;
+    color:#fff;
+    border-bottom:1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    box-shadow: 0px 1.5px 0px 0 rgba(black, 0.45),
+        inset 0 0 1px 0 rgba(black, 0.44);
+        outline: none;
+        transition: all 0.15s ease;
+        cursor: pointer;
+        text-transform: uppercase;
+        &:hover,&:focus {
+            color:#fff;
+            text-decoration: none;
+            background-color: #18cb65;
+        }
+        &:active {
+            transform: translateY(2px);
+            
+        }
+}

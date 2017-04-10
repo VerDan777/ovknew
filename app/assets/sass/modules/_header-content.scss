@@ -1,0 +1,112 @@
+.header-content {
+    padding:8% 0; 
+ ul {
+     margin-top: 50px;
+     padding-left: 20px;
+ }
+   li {
+       color:#414e5b;
+       font-size: 2rem;
+       font-weight: bolder;
+   }
+   h1 {
+       line-height: 1.5;
+       font-size: 2.5rem;
+       font-weight: 400;
+       font-family: $mainFontLight;
+       max-width: 534px;
+   }
+   .button {
+       margin-top: 50px;
+       text-align: center;
+       display: inline-block;
+   }
+   &__responsive-img {
+
+    max-width:100%;
+    @include atIpad{
+    display: none;
+    
+    }
+    
+  
+}
+   .wrapper {
+       text-align: center;
+   }
+   .mouse-icon {
+  border: 2px solid #000;
+  border-radius: 16px;
+  height: 40px;
+  width: 24px;
+  display: inline-block;
+  z-index: 10;
+  opacity: 0.7;
+  margin-top: 100px;
+}
+
+ .wheel {
+  -webkit-animation-name: drop;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;
+  -webkit-animation-name: drop;
+  animation-name: drop;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+  position: relative;
+  border-radius: 10px;
+  background: #000;
+  width: 2px;
+  height: 6px;
+  top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@-webkit-keyframes drop {
+  0% {
+    top: 5px;
+    opacity: 0;
+  }
+
+  30% {
+    top: 10px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 25px;
+    opacity: 0;
+  }
+}
+
+
+@keyframes drop {
+  0% {
+    top: 5px;
+    opacity: 0;
+  }
+
+  30% {
+    top: 10px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 25px;
+    opacity: 0;
+  }
+}
+       
+   }
