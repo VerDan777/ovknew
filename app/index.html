@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="temp/styles/styles.css">
-    <link rel="stylesheet" href="temp/styles/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="assets/libs/jquery/jquery-1.11.2.min.js"></script>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -25,7 +28,7 @@
             <div class="col-lg-2 col-lg-4 col-md-6 col-sm-6 col-xs-12">
             <a href="#" class="main-nav__logo">
 
-                 <img src="../assets/img/logo.svg" alt="logo" class="responsive-img">
+                 <img  src="../assets/img/logo.svg" alt="logo" class="responsive-img">
             </a>
              </div>
         <div class="col-lg-3 col-lg-push-7 col-md-6 col-xs-12">
@@ -62,13 +65,13 @@
         <div class="header-content ">
            <div class="col-sm-6">
 
-            <h1>Монтаж системы вентиляции и кондиционирования</h1>
+            <h1 class="text-center">Монтаж системы вентиляции и кондиционирования</h1>
                 <ul>
                     <li>Работаем без предоплаты</li>
                     <li>Скидки до 40%</li>
                     <li>Бесплатный выезд инженера</li>
                 </ul>
-            <button href="#" class="button">Отправить заявку</button>
+            <button href="#" class="button text-center">Отправить заявку</button>
 
            </div>
            
@@ -92,25 +95,25 @@
     <div class="row">
         <div class="col-md-3 col-sm-6">
             <div class="item">
-        <h3 class="item__title"><span  >6</span> лет на рынке</h3>
+        <h3 class="item__title"><span  class="lines" data-count="6" >6</span> лет на рынке</h3>
         <p>6 лет успешной работы на рынке промышленной вентиляции</p>
             </div>
         </div>
         <div class="col-md-3 col-sm-6">
             <div class="item">
-        <h3 class="item__title"><span >125</span> обьектов</h3>
+        <h3 class="item__title"><span  class="lines" data-count="125">125</span> обьектов</h3>
         <p>Более 150 выполненных работ по обьектам</p>
             </div>
         </div>
           <div class="col-md-3 col-sm-6">
             <div class="item">
-        <h3 class="item__title"><span >120</span> партнеров</h3>
+        <h3 class="item__title"><span  class="lines" data-count="120" >120</span> партнеров</h3>
         <p>Более 120 партнеров и поставщиков</p>
             </div>
         </div>
           <div class="col-md-3 col-sm-6">
             <div class="item">
-        <h3 class="item__title"><span >250 000</span> кв.м</h3>
+        <h3 class="item__title"><span class="lines" data-count="250000">250 000</span> кв.м</h3>
         <p>Установленных воздуховодов</p>
             </div>
         </div>
@@ -124,20 +127,26 @@
              <div class="col-sm-6">
                 <div class="main-content-gallery__img ">
                     <div class="main-content--gallery__img__triangle"></div>
-                    <img src="../assets/img/gallery_photo.jpg" alt="ovk">
+                    <img class="center-block" src="../assets/img/gallery_photo.jpg" alt="ovk">
                    
              </div>
              </div>
          <div class="col-sm-6">
             <div class="main-content--gallery__title">
-            <h1>Кондиционирование и вентиляция-это наш профиль</h1>
-            <p>Обращаясь в нашу компанию,вы гарантированно получаете высокое качестов проектирования и монтажа вентиляционных систем.<strong>ОВК СТРОЙ</strong>-это коаманда профессионалов с многолетним опытом работы на рынке.</p>
-            <ul>
+            <h2 class="text-center">Кондиционирование и вентиляция-это наш профиль</h2>
+            <p class="center-block">Обращаясь в нашу компанию,вы гарантированно получаете высокое качестов проектирования и монтажа вентиляционных систем.<strong>ОВК СТРОЙ</strong>-это коаманда профессионалов с многолетним опытом работы на рынке.</p>
+            <ul class="center-block">
                 <li>Работаем без предоплат</li>
                 <li>Бесплатный выезд инженера</li>
             </ul>
-            <button class="button">Сделать заказ</button>
-             <button class="button button--right-green">Наши сертификаты</button>
+            <div class="row">
+                <div class="col-md-6">
+                     <button class="button center-block ">Сделать заказ</button>
+                 </div>
+                <div class="col-md-6">
+                 <button class="button button--right-green  center-block"><span class="hidden-md hidden-sm hidden-xs">Наши</span> сертификаты</button>
+                </div>
+            </div>
              </div>
          </div>
          
@@ -155,6 +164,9 @@
             <div>
 
     </section>
-    
+ <script src="assets/libs/jquery/jquery-1.11.2.min.js"></script>
+ <script src="assets/libs/animateNumber/jquery.animateNumber.min.js"></script>
+<script src="assets/libs/waypoints/waypoints.min.js"></script>
+<script src="assets/js/scripts.js"></script>
 </body>
 </html>

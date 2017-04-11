@@ -28,7 +28,7 @@
     }
 }
 @mixin atIpad {
-    @media (mix-width:992) and (max-width:1200) {
+    @media (min-width:992) and (max-width:1200) {
         @content;
     }
 }

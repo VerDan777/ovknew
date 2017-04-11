@@ -1,4 +1,6 @@
 var gulp = require('gulp'),
+    jquery=require('jquery'),
+    // bootstrap=require('bootstrap'),
     sass = require('gulp-sass'),
     sassModuleImporter = require('sass-module-importer');
     watch = require('gulp-watch'),

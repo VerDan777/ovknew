@@ -1,4 +1,10 @@
 $(function() {
+
+	$("mouse-icon").click(function() {
+		$("html,body").animate({
+			scrollTop:$("main-content--advantages").offset().top
+		},2000)
+	});
 $(".toggle-menu").click(function() {
   $(this).toggleClass("on");
   $(".main-nav").slideToggle();
