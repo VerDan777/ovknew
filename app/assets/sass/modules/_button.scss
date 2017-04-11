@@ -28,4 +28,21 @@
             transform: translateY(2px);
             
         }
+        &--right-green {
+            border:2px solid #ecb124;
+            border-top-width: 1px;
+            border-bottom-width: 3px;
+            background-color:#fff;
+            color:#ecb124;
+            font-weight: 700;
+            margin-left: 100px;
+            // box-shadow: 0px 2.0px 0px 0 rgba(#ecb124, 0.45),
+        //  inset 0 0 1px 0 rgba(#ecb124, 0.44);
+              &:hover,&:focus {
+            color:#fff;
+            text-decoration: none;
+            // background-color: #18cb65;
+        }
+        }
+      
 }

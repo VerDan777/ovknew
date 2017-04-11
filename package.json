@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": 
+    "url": "git+https://github.com/VerDan777/ovk.git"
   },
   "author": "Daniil",
   "license": "ISC",

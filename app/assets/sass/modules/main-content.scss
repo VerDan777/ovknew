@@ -15,17 +15,47 @@
        
         img {
            border:5px solid #ecb124;
-           min-height: 360px;
+           opacity: 0.7;
+           display: inline;
+           text-align: center;
+         @include atSmall {
+         
+           max-width: 300px;
+        }
        }
        &__img {
+
+       
         &__triangle {
             position: absolute;
             top: 0px;
             right: 0px;
-            @include triangle(12px,gray,up-right);
+            // @include triangle(12px,gray,up-right);
         }
        }
+       ul {
+           margin-bottom: 50px;
+         color: #414e5b;
+         font-size: 2rem;
+         font-weight: bolder;
+       }
+       p {
+           margin-bottom: 30px;
+          color: #7e91a4;
+
+       }
+       h1 {
+           color:#222222;
+           font-family: 'Roboto',sans-serif;
+           font-weight: 400;
+       }
     }
+      &--direction {
+            h1 {
+        text-align: center;
+      
+        }
+        }
     
 
 }
