@@ -13,6 +13,11 @@
     .item__title--titlesub {
       color: #fff;
       font-family: 'Exo2Bold',sans-serif; }
+  .item__vertical img {
+    max-width: 400px;
+    max-height: 400px; }
+  .item__vertical__img-svg:hover path {
+    fill: #ecb124 !important; }
   .item p {
     font-family: 'OpenSansRegular',sans-serif;
     color: #74818e; }

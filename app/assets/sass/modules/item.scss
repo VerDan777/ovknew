@@ -23,9 +23,24 @@
             font-family: 'Exo2Bold',sans-serif;
         }
     }
+    &__vertical {
+    img {
+        max-width:400px;
+        max-height: 400px;
+    }
+      &__img-svg {
+           &:hover {   
+          path{
+        fill:$accent !important;
+          }
+           }
+    }
+    
+    }
     p {
         font-family: 'OpenSansRegular',sans-serif;
         color:#74818e;
     }
+  
     
 }
