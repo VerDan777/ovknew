@@ -6972,7 +6972,8 @@ nav ul {
     font-size: 2.5rem;
     font-weight: 400;
     font-family: "Roboto", serif;
-    max-width: 534px; }
+    max-width: 390px;
+    margin: 0px; }
   .header-content .button {
     margin-top: 50px;
     text-align: center;
@@ -7089,6 +7090,7 @@ nav ul {
   .button--yellow {
     border: 2px solid silver;
     border-top-width: 1px;
+    margin-top: 80px;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -7160,7 +7162,8 @@ nav ul {
     height: 500px; }
     .main-content--direction h2 {
       text-align: center;
-      margin-top: 0px; }
+      margin-top: 0px;
+      margin-bottom: 80px; }
 
 .item {
   display: inline;
@@ -7177,11 +7180,23 @@ nav ul {
     .item__title--titlesub {
       color: #fff;
       font-family: 'Exo2Bold',sans-serif; }
+  .item__vertical h3 {
+    text-align: center;
+    margin-top: 80px; }
+  .item__vertical svg {
+    width: 74px;
+    height: auto; }
   .item__vertical img {
     max-width: 400px;
     max-height: 400px; }
   .item__vertical__img-svg:hover path {
+    width: 74px;
+    transition: all 0.5s ease;
     fill: #Ecb124 !important; }
+  .item__vertical p {
+    display: inline;
+    text-align: center;
+    vertical-align: middle; }
   .item p {
     font-family: 'OpenSansRegular',sans-serif;
     color: #74818e; }
