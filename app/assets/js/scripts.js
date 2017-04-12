@@ -34,6 +34,9 @@ $(".lines").each(function() {
 		numberStep: comma_separator_number_step},
 		2000);
 });
+
+
+
 $('.item__vertical__img-svg').each(function(){
 		var $img = $(this);
 		var imgClass = $img.attr('class');

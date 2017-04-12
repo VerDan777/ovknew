@@ -81,8 +81,8 @@
             background-color: $blue;
             h2 {
             text-align: center;
-            margin-top: 100px ;
-            margin-bottom: 80px;
+            // margin-top: 100px ;
+            // margin-bottom: 80px;
             color: #ffffff;
 
              }
@@ -93,10 +93,38 @@
         }
         &--portfolio {
             padding: 0 0;
-           &__col-lg-4{
+             &_content {
+            background-color: #fff;
+            opacity: 50%;
+            i {
+                width: 200px;
+                height: 200px;
+                background-color: $blue;  
+            }
+            h3 {
+                color:#fff;
+            }
+            }
+           &__col-lg-4 {
             padding: 0px 0px;
             }
         }
+        &--equipment {
+            background-color: 
+            h2 {
+                color:#fff;
+            }
+        }
+       &--carousel-eq {
+
+        }
+        &--carousel-item {
+
+        }
+        &--car-img-wrapp {
+
+        }
+
     
 
 }

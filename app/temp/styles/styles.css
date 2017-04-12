@@ -7170,15 +7170,25 @@ nav ul {
     background-color: #414e5b; }
     .main-content--completeTasks h2 {
       text-align: center;
-      margin-top: 100px;
-      margin-bottom: 80px;
       color: #ffffff; }
     .main-content--completeTasks p {
       text-align: center; }
   .main-content--portfolio {
     padding: 0 0; }
+    .main-content--portfolio_content {
+      background-color: #fff;
+      opacity: 50%; }
+      .main-content--portfolio_content i {
+        width: 200px;
+        height: 200px;
+        background-color: #414e5b; }
+      .main-content--portfolio_content h3 {
+        color: #fff; }
     .main-content--portfolio__col-lg-4 {
       padding: 0px 0px; }
+  .main-content--equipment {
+    background-color: h2;
+      background-color-color: #fff; }
 
 .item {
   display: inline;
@@ -7215,6 +7225,8 @@ nav ul {
   .item p {
     font-family: 'OpenSansRegular',sans-serif;
     color: #74818e; }
-  .item__portfolio img {
-    max-height: 320px;
-    max-width: 480px; }
+  .item__portfolio {
+    display: block; }
+    .item__portfolio img {
+      max-height: 320px;
+      max-width: 480px; }
