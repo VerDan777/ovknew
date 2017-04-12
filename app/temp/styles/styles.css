@@ -7091,6 +7091,7 @@ nav ul {
     border: 2px solid silver;
     border-top-width: 1px;
     margin-top: 80px;
+    margin-bottom: 100px;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -7164,6 +7165,20 @@ nav ul {
       text-align: center;
       margin-top: 0px;
       margin-bottom: 80px; }
+  .main-content--completeTasks {
+    height: 214px;
+    background-color: #414e5b; }
+    .main-content--completeTasks h2 {
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 80px;
+      color: #ffffff; }
+    .main-content--completeTasks p {
+      text-align: center; }
+  .main-content--portfolio {
+    padding: 0 0; }
+    .main-content--portfolio__col-lg-4 {
+      padding: 0px 0px; }
 
 .item {
   display: inline;
@@ -7200,3 +7215,6 @@ nav ul {
   .item p {
     font-family: 'OpenSansRegular',sans-serif;
     color: #74818e; }
+  .item__portfolio img {
+    max-height: 320px;
+    max-width: 480px; }

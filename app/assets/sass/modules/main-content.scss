@@ -76,6 +76,27 @@
         margin-bottom: 80px;
         }
         }
+        &--completeTasks {
+            height: 214px;
+            background-color: $blue;
+            h2 {
+            text-align: center;
+            margin-top: 100px ;
+            margin-bottom: 80px;
+            color: #ffffff;
+
+             }
+             p {
+                text-align: center; 
+             }
+
+        }
+        &--portfolio {
+            padding: 0 0;
+           &__col-lg-4{
+            padding: 0px 0px;
+            }
+        }
     
 
 }

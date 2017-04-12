@@ -60,6 +60,13 @@
         font-family: 'OpenSansRegular',sans-serif;
         color:#74818e;
     }
+    &__portfolio {
+        img {
+            max-height: 320px;
+            max-width: 480px;
+            
+        }
+    }
   
     
 }
