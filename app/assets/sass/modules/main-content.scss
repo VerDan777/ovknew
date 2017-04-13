@@ -18,9 +18,12 @@
            opacity: 60%;
            display: block;
            text-align: center;
-           max-width:420px;
+           max-width:450px;
+           max-height: 450px;
            @include atTabletsPortrait {
-               max-width: 360px;
+            max-width: 380px;
+            
+            
            }
            &::before {
                content: '';
@@ -39,7 +42,7 @@
        }
        &__img {
 
-       
+    //    max-width: 100%;
         &__triangle {
             position: absolute;
             top: 0px;
