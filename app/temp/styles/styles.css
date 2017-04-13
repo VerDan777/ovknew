@@ -7071,7 +7071,7 @@ nav ul {
     text-decoration: none;
     background-color: #18cb65; }
   .button:active {
-    transform: translateY(2px); }
+    transform: translateX(102px); }
   .button--right-green {
     border: 2px solid #ecb124;
     border-top-width: 1px;
@@ -7090,8 +7090,6 @@ nav ul {
   .button--yellow {
     border: 2px solid silver;
     border-top-width: 1px;
-    margin-top: 80px;
-    margin-bottom: 100px;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -7174,7 +7172,10 @@ nav ul {
     .main-content--completeTasks p {
       text-align: center; }
   .main-content--portfolio {
-    padding: 0 0; }
+    padding: 0 0;
+    background-color: #414e5b;
+    margin-bottom: 80px;
+    height: 661px; }
     .main-content--portfolio_content {
       background-color: #fff;
       opacity: 50%; }
@@ -7189,6 +7190,48 @@ nav ul {
   .main-content--equipment {
     background-color: h2;
       background-color-color: #fff; }
+  .main-content--carousel-item {
+    box-shadow: 0px 1,5px 0px;
+    background-color: #f8f8f8;
+    border: 3px solid silver; }
+    .main-content--carousel-item:hover {
+      border-color: #Ecb124; }
+  .main-content--car-img-wrapp {
+    position: relative; }
+    .main-content--car-img-wrapp svg {
+      position: absolute;
+      max-height: 50px;
+      left: -12px;
+      top: 25px; }
+      .main-content--car-img-wrapp svg path {
+        fill: #fff !important; }
+  .main-content--offers {
+    height: 414px;
+    background-color: #414e5b; }
+    .main-content--offers h2 {
+      margin-top: 80px;
+      margin-bottom: 74px;
+      color: #fff;
+      font-size: 3rem;
+      font-family: 'OpenSans',sans-serif; }
+    .main-content--offers p {
+      color: #ccd0d3;
+      font-size: 1.5rem;
+      margin-bottom: 56px; }
+    .main-content--offers span {
+      color: #fff;
+      font-weight: bold; }
+  .main-content--reviews {
+    background-color: #f8f8f8; }
+    .main-content--reviews h2 {
+      margin-top: 100px;
+      margin-bottom: 120px;
+      color: #222222; }
+  .main-content__partners__carousel__partners__item img {
+    width: 200px;
+    height: 200px; }
+  .main-content__reviews {
+    background-color: #ededed; }
 
 .item {
   display: inline;
@@ -7230,3 +7273,24 @@ nav ul {
     .item__portfolio img {
       max-height: 320px;
       max-width: 480px; }
+  .item__responsive-img {
+    max-width: 258px; }
+  .item__vertical-2 {
+    text-align: center; }
+    .item__vertical-2__rounded-img-wrapp img {
+      border-radius: 10em;
+      border: silver 5px solid;
+      overflow: hidden;
+      width: 136px; }
+      .item__vertical-2__rounded-img-wrapp img:hover {
+        transform: scale(1.1);
+        border-color: #Ecb124;
+        transition: all 0.3s ease; }
+    .item__vertical-2__rounded-img-wrapp span {
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+      .item__vertical-2__rounded-img-wrapp span:hover {
+        color: #Ecb124; }
+      .item__vertical-2__rounded-img-wrapp span i {
+        width: 20px;
+        height: 20px; }

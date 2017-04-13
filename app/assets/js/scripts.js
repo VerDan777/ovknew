@@ -23,7 +23,7 @@ $(".main-head-toogle__menu").click(function() {
 		});
 	}
 },{
-    offset:'30%'
+    offset:'70%'
 });
 var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(' ');
 $(".lines").each(function() {
@@ -34,6 +34,16 @@ $(".lines").each(function() {
 		numberStep: comma_separator_number_step},
 		2000);
 });
+
+
+ $('.main-content__partners__carousel__partners').owlCarousel({
+	 loop:true,
+	 center:true,
+	 margin:10,
+	 stagePadding:20,	
+
+ });
+
 
 
 

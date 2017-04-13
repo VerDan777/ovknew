@@ -45,10 +45,11 @@
         width: 74px;
         transition: all 0.5s ease;
         fill:$accent !important;
+        
           }
            }
     }
-    p {
+    p { 
         display: inline;
         text-align: center;
         vertical-align: middle;
@@ -69,5 +70,38 @@
         }
        
     }
+    &__responsive-img {
+      max-width: 258px;
+    }
+   &__vertical-2 {
+       text-align: center;
+    &__rounded-img-wrapp {
+        img {
+        border-radius: 10em;
+        border:silver 5px solid;
+        overflow: hidden;
+        width: 136px;
+        &:hover {
+            transform: scale(1.1);
+            border-color: $accent;
+            transition: all 0.3s ease;
+        }
+        }
+      span{
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          &:hover{
+         color:$accent;
+          }
+           i{
+               width: 20px;
+               height: 20px;
+           }
+       }
+        
+        
+    } 
+    }
+    
 }
     
