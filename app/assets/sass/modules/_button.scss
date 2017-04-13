@@ -31,8 +31,8 @@
             background-color: #18cb65;
         }
         &:active {
-            transform: translateY(2px);
-            
+            // transform: translateY(2px);
+            transform: translateY(3px);
         }
         &--right-green {
             border:2px solid #ecb124;
@@ -55,7 +55,8 @@
         &--yellow {
             border:2px solid silver;
             border-top-width: 1px;
-            margin-top: 80px;
+            // margin-top: 80px;
+            // margin-bottom: 100px;
             //  border-bottom-width: 4px;
             //  border-right-width: 0.9px;
             //  border-left-width: 0.9px;

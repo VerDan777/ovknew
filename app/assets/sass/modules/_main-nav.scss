@@ -16,7 +16,7 @@
         ul {
           
             margin-top: 5px;
-            margin-bottom: s10px;
+            margin-bottom: 10px;
             display: inline-block;
              text-align: center;
                @include atMedium {
@@ -35,6 +35,20 @@
             color:#7e91a4;
             
         }
+        &--footer {
+            display: inline;
+            padding: 70px;
+            ul {
+          padding: 70px 0px;
+            }
+            a {
+                &:hover {
+                color:#fff;
+                }
+            }
+        }
+
+    
 }
 
 

@@ -1,0 +1,52 @@
+.footer {
+    &__form {
+        background-color: #303c48;
+        padding: 40px 30px;
+        height: 500px;
+        h2 {
+            color: #fff;
+            font-size: 2.5rem;
+            font-family: 'OpenSansBold',sans-serif;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        p {
+        color:#9ea6af;
+        }
+        input {
+            background-color: #acb6be;
+            width:310px;
+            height: 46px;
+            outline: none;
+            border-radius: 3px;
+            border-bottom: transparent 4px solid;
+            transition: all .5s ease;
+            
+            &:hover{
+            background-color:#e0e4e8;
+           border-bottom-color: #4b5c6d;
+        transition: all 0.5s ease-in-out;
+
+               &:focus{
+            background-color:#e0e4e8;
+            border-bottom-color: #4b5c6d;
+            transition: all 0.5s ease-in-out;
+                transform:translateZ(3px);
+                border-bottom: lighten($blue, 9%) 4px solid;
+               }
+
+            }
+        }
+        label {
+          color:#5d6772;
+        }
+
+    }
+    &__menu {
+        background-color: #2a353f;
+       
+    }
+  &__logo {
+    padding: 70px 0px;
+}
+}

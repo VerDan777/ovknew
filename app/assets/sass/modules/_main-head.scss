@@ -9,7 +9,10 @@
       
       &__menu__line {
          padding-top: 48px;
-         @include clearfix 
+         &--footer {
+        background-color: #2a353f;
+         }
+         
       }
       
       &__phone__wrap{
@@ -24,6 +27,9 @@
               position: relative;
               top:0px;
             
+          }
+          &--footer {
+            padding: 70px 0px;
           }
           
           a:hover {

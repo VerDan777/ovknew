@@ -1,0 +1,208 @@
+.main-content {
+
+        padding: 80px 0px;
+        background-color: $blue;
+    &--advantages {
+        padding: 80px 0px;
+        //visual 
+        background-color: $blue;
+        color:#fff;
+       
+    }
+    &--gallery {
+
+        background-color: #f8f8f8;
+       
+        img {
+           border:5px solid #ecb124;
+           opacity: 60%;
+           display: block;
+           text-align: center;
+           max-width:420px;
+           @include atTabletsPortrait {
+               max-width: 360px;
+           }
+           &::before {
+               content: '';
+               width: 100%;
+               height: 100%;
+               position: absolute;
+               top:0;
+               left:0;
+               background-color:#414e5b;
+               opacity: 0.6;
+           }
+         @include atSmall {
+         
+           max-width: 300px;
+        }
+       }
+       &__img {
+
+       
+        &__triangle {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            // @include triangle(12px,gray,up-right);
+        }
+       }
+       ul {
+           margin-bottom: 50px;
+         color: #414e5b;
+         font-size: 2rem;
+         font-weight: bolder;
+       }
+       p {
+           margin-bottom: 30px;
+          color: #7e91a4;
+
+       }
+       h2 {
+           color:#222222;
+           font-family: 'Roboto',sans-serif;
+           font-weight: 400;
+           margin-top:0px;  
+           @include atSmall {
+               font-size: 2.5rem;
+           }
+       }
+    }
+      &--direction {
+          height: 500px;
+            h2 {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 80px;
+        }
+        }
+        &__box {
+        background-color:$blue;
+        color:#fff;
+        border:1px solid black;
+        border-radius: 10px;
+        margin-top: 10px;
+        &:hover {
+        border-bottom: $accent solid 5px;
+        }
+        p {
+           color:#b5babf;
+           padding: 0px 20px;
+        }
+        }
+        &--completeTasks {
+            height: 214px;
+            background-color: $blue;
+            h2 {
+            text-align: center;
+            // margin-top: 100px ;
+            // margin-bottom: 80px;
+            color: #ffffff;
+
+             }
+             p {
+                text-align: center; 
+             }
+
+        }
+        &--portfolio {
+            padding: 0 0;
+            background-color: #414e5b;
+            margin-bottom: 80px;
+          height: 661px;
+             &_content {
+            background-color: #fff;
+            opacity: 50%;
+            i {
+                width: 200px;
+                height: 200px;
+                background-color: $blue;  
+            }
+            h3 {
+                color:#fff;
+            }
+            }
+           &__col-lg-4 {
+            padding: 0px 0px;
+            }
+        }
+        &--equipment {
+            background-color: 
+            h2 {
+                color:#fff;
+            }
+        }
+    //    &--carousel-eq {
+        
+    //     }
+        &--carousel-item {
+            box-shadow:0px 1,5px 0px ;
+            background-color: #f8f8f8;
+            border:3px solid silver;
+            &:hover {
+               border-color:$accent;
+            }
+        }
+        &--car-img-wrapp {
+            position: relative;
+            svg {
+                position: absolute;
+                max-height: 50px;
+                left:-12px;
+                top: 25px;
+                path {
+                    fill:#fff !important;
+                }
+              
+            }
+
+        }
+        &--offers {
+            height: 414px;
+            background-color: $blue;
+            h2 {
+                margin-top: 80px;
+                margin-bottom: 74px;
+                color:#fff;
+                font-size: 3rem;
+                font-family: 'OpenSans',sans-serif;
+            }
+            p {
+                color:#ccd0d3;
+                font-size: 1.5rem;
+                margin-bottom: 56px;
+            }
+            span {
+            color:#fff;
+            font-weight: bold;
+            }
+        }
+        &--reviews {
+            background-color: #f8f8f8;
+        h2 {
+
+            margin-top:100px;
+            margin-bottom: 120px;
+            color:#222222;
+        }
+        }
+       &__partners {
+         &__carousel__partners {
+            &__item {
+
+             img {
+                 width: 200px;
+                 height: 200px;
+             }   
+            }
+           }
+       }
+       &__reviews {
+        background-color: #ededed;
+        h2 {
+        margin-bottom: 120px;
+       }
+
+       }
+       
+}
