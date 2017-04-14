@@ -13,15 +13,49 @@
              }
            
         }
+        &__hamburger {
+
+           background-color: $blue;
+           ul {
+               list-style-type: none;
+               padding: 20px 0px;
+               margin: 0;
+             
+            //    width: 940px;
+           }
+            li{
+                max-width: 940px;
+             display: inline-block;
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;  
+           
+           
+
+
+            }
+            a   {
+            display: block;
+            padding:10px 18px;
+            text-decoration: none;
+            }
+            &:hover {
+                color:#fff;
+              text-decoration: none;
+              background-color: $accent;
+                
+            }
+        }
+        
+           
+       
         ul {
           
             margin-top: 5px;
             margin-bottom: 10px;
             display: inline-block;
-             text-align: center;
-               @include atMedium {
-                 visibility: hidden;
-        }  
+            text-align: center;
+               
         }
         li {
             display: inline-block;
@@ -47,9 +81,12 @@
                 }
             }
         }
+}
+        
+   
 
     
-}
+
 
 
         

@@ -1,4 +1,23 @@
 .footer {
+    background-color: $blue;
+    h2 {
+        color:#fff;
+        margin-top:100px;
+    }
+    span {
+        color:#fff;
+        font-size: 1.8rem;
+        font-weight: bold;
+        font-family: 'OpenSansBold',sans-serif;
+    }
+    &__col-sm-4{
+    padding-top: 100px;
+    }
+    h4 {
+     
+       color:#e6e7e9;
+       font-family: 'RobotoSlab',sans-serif;
+    }
     &__form {
         background-color: #303c48;
         padding: 40px 30px;
@@ -15,7 +34,7 @@
         }
         input {
             background-color: #acb6be;
-            width:310px;
+            // width:310px;
             height: 46px;
             outline: none;
             border-radius: 3px;

@@ -18,8 +18,8 @@
            opacity: 60%;
            display: block;
            text-align: center;
-           max-width:420px;
-           @include atTabletsPortrait {
+           max-width:100%;
+           @include  atIpad {
                max-width: 360px;
            }
            &::before {
@@ -69,7 +69,7 @@
        }
     }
       &--direction {
-          height: 500px;
+        //   height: 500px;
             h2 {
         text-align: center;
         margin-top: 0px;
@@ -127,9 +127,12 @@
             }
         }
         &--equipment {
-            background-color: 
+        
+
             h2 {
                 color:#fff;
+                margin-bottom: 85px;
+                color: rgb(51, 51, 51);
             }
         }
     //    &--carousel-eq {
@@ -139,12 +142,16 @@
             box-shadow:0px 1,5px 0px ;
             background-color: #f8f8f8;
             border:3px solid silver;
+            width: 263px;
+            max-height: 400px;
+            margin-bottom: 100px;
             &:hover {
                border-color:$accent;
             }
         }
         &--car-img-wrapp {
             position: relative;
+
             svg {
                 position: absolute;
                 max-height: 50px;
@@ -156,6 +163,10 @@
               
             }
 
+        }
+    &__carousel-text {
+        
+        margin-bottom: 70px;
         }
         &--offers {
             height: 414px;
@@ -187,10 +198,15 @@
         }
         }
        &__partners {
+           height: 500px;
+           h2  {
+              padding-bottom: 80px;
+           }
          &__carousel__partners {
             &__item {
-
+                padding-left: 10px;
              img {
+                 display: block;
                  width: 200px;
                  height: 200px;
              }   
